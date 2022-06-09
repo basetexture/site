@@ -1,0 +1,262 @@
+@font-face{
+font-family: 'cubic';
+src: url('cubic html.otf') format('truetype');
+}
+
+body {
+background-image: url("index-immagini/sfondo.png");
+}
+
+.homebella{
+  text-decoration: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-800px, 0%);
+  font-size: 24pt;
+  color: white;
+}
+
+.basetexture{
+position: absolute;
+top: 105px;
+left: 50%;
+transform: translate(-50%, 0%);
+}
+
+.scritta {
+position: absolute;
+top: 155px;
+left: 50%;
+transform: translate(-50%, 0%);
+font-size: 30pt;
+color: black;
+width: 835px;
+}
+
+.baseplus {
+position: absolute;
+top: 1064px;
+left: 50%;
+transform: translate(-180%, 0%);
+}
+
+.base3D {
+position: absolute;
+top: 1064px;
+left: 50%;
+transform: translate(-50%, 0%);
+}
+
+.basebed {
+position: absolute;
+top: 1064px;
+left: 50%;
+transform: translate(80%, 0%);
+}
+
+.basevs {
+position: absolute;
+top: 1664px;
+left: 50%;
+transform: translate(-120%, 0%);
+}
+
+.basegui {
+position: absolute;
+top: 1664px;
+left: 50%;
+transform: translate(20%, 0%);
+}
+
+.sfondo {
+  background-image: url("index-immagini/sfondo_mobile.png");
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding-left: 832px;
+  padding-right: 832px;
+  padding-bottom: 2330px;
+}
+
+.social{
+position: absolute;
+top: 2340px;
+left: 50%;
+font-size: 25pt;
+margin-left: -650px;
+width: 100px;
+}
+
+.insta{
+text-decoration: none;
+position: absolute;
+top: 2370px;
+left: 50%;
+font-size: 25pt;
+margin-left: -650px;
+width: 100px;
+color: black;
+}
+
+.discord{
+text-decoration: none;
+position: absolute;
+top: 2400px;
+left: 50%;
+font-size: 25pt;
+margin-left: -650px;
+width: 100px;
+color: black;
+}
+
+.help{
+text-decoration: none;
+position: absolute;
+top: 2350px;
+left: 50%;
+transform: translate(50%, 0%);
+font-size: 25pt;
+width: 440px;
+color: black;
+}
+
+.who_i_am{
+position: absolute;
+top: 2370px;
+left: 50%;
+transform: translate(-50%, 0%);
+font-size: 25pt;
+width: 185px;
+color: black;
+}
+
+.immagine{
+position: absolute;
+top: 2346px;
+left: 50%;
+margin-left: -800px;
+}
+
+.baseplustendina{
+position: fixed;
+top: 0px;
+left: 50%;
+margin-left: 560px;
+font-size: 14pt;
+}
+
+.basebedtendina{
+position: fixed;
+top: 0px;
+left: 50%;
+margin-left: 380px;
+font-size: 14pt;
+height: 200px
+}
+
+.baseguitendina {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  margin-left: 220px;
+  font-size: 14pt;
+}
+
+.baseVStendina {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  margin-left: 70px;
+  font-size: 14pt;
+}
+
+.Social{
+position: fixed;
+top: 0px;
+left: 50%;
+margin-left: 700px;
+font-size: 14pt;
+height: 200px
+}
+
+.home{
+font-size: 20pt;
+color: white;
+position: absolute;
+top: -50px;
+left: 50%;
+transform: translate(-1100%, 0%)
+}
+
+.immaginesopra{
+  background-image: url("index-immagini/barra sopra.png");
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding-left: 832px;
+  padding-right: 832px;
+  padding-bottom: 45px;
+}
+
+.footer {
+  background-image: url("index-immagini/barra sopra.png");
+  position: absolute;
+  top: 2325px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding-left: 832px;
+  padding-right: 832px;
+  padding-bottom: 120px;
+}
+
+.bottone {
+  background-color: #2271B3;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.tendina {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.tendina a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.tendina a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .tendina {
+  display: block;
+}
+
+.dropdown:hover .bottone {
+  background-color: #2271B3;
+}
+
+.home1{
+  text-decoration: none;s
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  margin-left: -800px;
+  font-size: 24pt;
+  color: white;
+}
